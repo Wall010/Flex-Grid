@@ -1,0 +1,103 @@
+body{
+    background: lemonchiffon;
+}
+
+hr{
+    width: 90%;
+}
+
+.ContFlex{
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+    background-color: lightseagreen;
+    padding: 20px;
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.caja{
+    border: 1px solid black;
+    background-color: lightcoral;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    margin: 5px;
+}
+
+.caja h3{
+    margin-top: 40%;
+}
+
+.ContFlex_1{
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+    background-color: lightseagreen;
+    padding: 20px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.ContFlex_2{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    border: 1px solid black;
+    background-color: lightseagreen;
+    padding: 20px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.ContFlex_3{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    border: 1px solid black;
+    background-color: lightseagreen;
+    padding: 20px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.ContFlex_4{
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    border: 1px solid black;
+    background-color: lightseagreen;
+    padding: 20px;
+    margin-bottom: 5px;
+    display: flex;
+}
+
+
+/* Me gustaría que se den cuenta porque los h3 se desplazaron*/
+.c_1{
+    background-color: aqua;
+    order: 2;
+    /*flex-grow: 1;*/
+    flex-basis: 20%;
+}
+.c_2{
+    background-color: blue;
+    order: 3;
+    /*flex-grow: 1;*/
+    flex-basis: 70%;
+}
+.c_3{
+    background-color: aliceblue;
+    order: 1;
+    /*flex-grow: 1;*/
+    flex-basis: 30%; 
+}
+
+
